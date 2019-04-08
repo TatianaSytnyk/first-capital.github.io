@@ -1,0 +1,248 @@
+body
+{
+    padding: 10px;
+}
+.banner
+{
+/*
+   display: flex;
+   flex-flow: row wrap;
+*/
+   height: 100%;
+    width: 100%;
+    
+      background: url("/img/baner.jpg") no-repeat center;
+  background-size: auto 100%;
+
+    color: white;
+   
+    
+}
+.banner__title {
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    display: block;
+    text-decoration: none ;
+   font-size: 40px;
+   font-family: fantasy;
+    color: white  !important;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+   
+}
+.btn.banner__btn {
+    width: 200px;
+    background-color: #ffdd40;
+    color: black;
+    font-weight: bold;
+    border: 3px solid #ffdd40;
+    font-size: 20px;
+
+    
+}
+.btn.banner__btn:hover {
+     background-color: #ffd820;
+     color: black;
+    border: 3px solid white;
+} 
+.banner__img {
+
+  width: auto;
+  height: 15%;
+}
+.banner__block {
+    height: 85%;
+    position: relative;
+}
+
+.ind
+{
+    border: 1px solid black;
+    width: auto;
+}
+.OurTeam, .Contacts, .MakeYourChoice, .ourProjects, .Reasons, .RegForm
+{
+ 
+    border-top: 7px solid #a5eca3;
+    
+}
+.Number
+{
+    color: orange;
+}
+p
+{
+    font-size: 15px;
+    text-align: left;
+}
+
+.RegForm:hover
+{
+ background-color: #ffed98;
+}
+.form-horizontal:hover
+{
+ border: 3px solid white;
+}
+.image {
+ overflow:hidden;
+ }
+.image img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+.image img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+
+.form-horizontal
+{
+    padding: 20px;
+ 
+    border-radius: 5px;
+    background-color: #a5eca3;
+}
+
+.choice
+{
+    width: 80%;
+    height: auto;
+}
+
+@media (min-width: 49em) {
+  .cover h1 {
+    font-size: 3rem;
+   
+  }
+  #information .inf-text * {
+    width: 85%;
+  }
+  #information .section:nth-child(2n) .inf-text * {
+      
+    float: right;
+  }
+  #information .section:nth-child(2n) .inf-text a {
+    
+    float: none;
+  }
+   
+  #information .section:nth-child(2n+1) .inf-text {
+      
+    float: right;
+  }
+     
+ #information .section:nth-child(3n) .inf-text a,  #information .section:nth-child(2n+1) .inf-text a, #information .section:nth-child(2n) .inf-text a {
+    color: black;
+  }
+}
+
+@media (max-width: 980px) {
+  .cover h1 {
+    font-size: 3rem;
+   
+  }
+  #information .inf-text {
+    padding: 20px 60px;
+  }
+  #information .inf-text * {
+    width: 85%;
+  }
+  #information .section:nth-child(2n) .inf-text * {
+      
+    float: right;
+  }
+  #information .section:nth-child(2n) .inf-text a {
+    
+    float: none;
+  }
+   
+  #information .section:nth-child(2n+1) .inf-text {
+      
+    float: right;
+  }
+     
+ #information .section:nth-child(3n) .inf-text a,  #information .section:nth-child(2n+1) .inf-text a, #information .section:nth-child(2n) .inf-text a {
+    color: black;
+  }
+}
+
+.row
+{
+    padding: 10px;
+}
+.project
+{
+ overflow:hidden;
+ width: 70%;
+ height:auto;
+
+}
+.project img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+.project img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+.teams
+{
+ overflow:hidden;
+ width: 70%;
+ height:auto;
+
+}
+.teams img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+  border-radius: 10%;
+ }
+ 
+.teams img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ border-radius: 10%;
+ }
+#n
+{
+    text-decoration: none;
+    color: black;
+}
+#c1
+    {
+        background-color: #ffdd40;
+        color: black;
+
+
+    }
+    #c1:hover
+    {
+        background-color: #ffd820;
+        color: black;
+
+    }
